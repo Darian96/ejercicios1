@@ -18,5 +18,5 @@ $distancia = 200;
 $velocidad = 50; 
 $tiempo = $distancia / $velocidad;
 echo $tiempo;
-
+ //4
 ?>
