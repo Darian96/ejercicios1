@@ -21,7 +21,7 @@ echo $tiempo;
  //5
  $sueldofijo = 15000;
   
- $totalfacturado =  (5/100 * $sueldofijo);
+ $totalfacturado = $sueldofijo + (5/100 * $sueldofijo);
 echo "<br>";
 echo "total facturado ",$totalfacturado;
 //6
@@ -56,7 +56,7 @@ echo "porcentajes de homnres ", $pjHombres,"%";
 
 
 echo "<br>";
-
+ 
 
 
 

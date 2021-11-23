@@ -81,7 +81,7 @@
   $num3 = 5;
   $num4 = 6;
 
-  if ($num1>$num2) {
+  if ($num1>=$num2) {
      if ($num1>$num3) {
        if ($num1>$num4) {
         echo "el mayor numero es ",$num1;
@@ -95,7 +95,7 @@
         echo "el mayor numero es ",$num4;
        }
      }
-  }elseif ($num2>$num3) {
+  }elseif ($num2>=$num3) {
     echo "el mayor numero es ",$num2; 
   }elseif ($num3>$num4) {
     echo "el mayor numero es ", $num3;
@@ -104,9 +104,9 @@
   }
 
  echo "<br>";
-  $num1 = 5;
-  $num2 = 3;
-  $num3 = 2;
+  $num1 = 3;
+  $num2 = 2;
+  $num3 = 6;
   $num4 = 5;
 
   if ($num1<$num2) {
@@ -126,8 +126,28 @@
   }else {
     echo "el menor de los numeros ingresados ", $num4;
   }
-
-
-
+  echo "<br>";
+  $num1 = 8;
+  $num2 = 3;
+  $num3 = 2;
+  $num4 = 5;
+  $num5 = 4;
+  if ($num1 >=$num2) {
+    if ($num1>$num3) {
+      echo "el mayor numero es ",$num1;
+    }else {
+      if ($num3>$num4) {
+        echo "el mayor numero es ",$num3;
+      }else {
+        echo "el mayor numero es ",$num3;
+      }
+    }
+  }elseif ($num2>=$num3) {
+    echo "el mayor numero es ",$num2;
+  }elseif ($num3>$num4) {
+    echo "el mayor numero es ", $num3;
+  }else {
+    echo "el mayor numero es ",$num4;
+  }
 
 ?>
